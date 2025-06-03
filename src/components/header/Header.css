@@ -1,0 +1,58 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alinha tudo à esquerda */
+  padding: 1.5rem;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #d9b434;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Espaço entre a imagem e o título */
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.header-content img {
+  max-width: 80px;
+  height: auto;
+  border-radius: 45px;
+  transition: transform 0.3s ease;
+}
+
+.header-content img:hover {
+  transform: scale(1.05);
+}
+
+
+/* 📱 Responsividade para telas menores */
+@media (max-width: 600px) {
+  header {
+    padding: 1rem;
+   justify-content: flex-start; /* Alinha tudo à esquerda */
+  }
+
+  .header-content {
+    
+    text-align: center;
+    
+  }
+
+  .header-content img {
+    max-width: 60px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
