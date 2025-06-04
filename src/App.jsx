@@ -1,5 +1,5 @@
 
-import { Routes,Route } from "react-router-dom"
+import { Routes,Route,BrowserRouter } from "react-router-dom"
 import './index.css'
 import './components/header/Header.css'
 import Header from "./components/header/Header"
@@ -19,7 +19,8 @@ function App() {
  <Header/>
    
 
-   
+<BrowserRouter>
+
     <Routes>
       
      <Route path="/" element={<Home/>}/>
@@ -27,6 +28,7 @@ function App() {
      <Route path="/history" element={<History/>}/>
      
     </Routes>
+    </BrowserRouter>
      </main>
      <Footer/>
     </>
