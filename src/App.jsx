@@ -8,6 +8,7 @@ import Home from "./pages/home/Home";
 import History from "./pages/history/History";
 
 
+
 function App() {
   return (
    
@@ -19,7 +20,8 @@ function App() {
           <Routes>
            
           <Route path="/" element={<Home/>} />
-           <Route path="history" element={<History/>} />            {/* <Route path="/history" element={<History />} /> */}
+          <Route path="/histoy" element={<History/>} />
+            {/* <Route path="/history" element={<History />} /> */}
           </Routes>
        
         <Footer />

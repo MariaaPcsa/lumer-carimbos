@@ -1,9 +1,10 @@
     import './History.css';
 import '../../index.css';
-    
-    const History = () => {
-      return (
-        <>
+ 
+ const History = () => {
+   return (
+
+<>
 
   <h2> Nossa Essência</h2>
         
@@ -21,7 +22,10 @@ import '../../index.css';
         </div>
        
         </>
-      )
-    }
-    
-    export default History
+
+
+
+   )
+ }
+ 
+ export default History
