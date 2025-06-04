@@ -4,9 +4,9 @@ import './index.css'
 import './components/header/Header.css'
 import Header from "./components/header/Header"
 import Footer from "./components/footer/Footer"
-import Home from "./pages/home/Home"
-import Location from "./pages/location/Location"
-import History from "./pages/history/History"
+import History from "./pages/history/History";
+import Location from "./pages/location/Location";
+
 
 function App() {
   return (
