@@ -1,0 +1,47 @@
+.chistory {
+  line-height: 0.5rem;
+  text-align: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 900px;
+  border-radius: 0.4rem;
+  background-color: #f6e4f14b;
+  border-top: 0.2rem solid #383b66;
+  border-bottom: 0.1rem solid #383b66;
+  box-sizing: border-box;
+}
+
+/* Parágrafos */
+.chistory p {
+  font-size: 1rem;
+  color: black;
+  line-height: 1.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1rem;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+  .chistory {
+    padding: 1.5rem;
+    margin: 1.5rem;
+  }
+
+  .chistory p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+  .chistory {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .chistory p {
+    font-size: 0.9rem;
+    margin: 0.8rem;
+  }
+}
+

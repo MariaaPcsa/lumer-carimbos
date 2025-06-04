@@ -8,6 +8,7 @@
 body, html {
   margin: 0;
   padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html{
@@ -16,8 +17,24 @@ html{
 }
 
 main{
-    background-color: #f4ecae;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: hsla(60, 100%, 93%, 0.433);
+    margin: 0;
+   
 }
+h2{
+text-align: center;
+margin: 2rem;
+
+}
+button{
+  margin: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
 /* .color1 { background-color:#ead984; }
 .color2 { background-color:#efe399; }
 .color3 { background-color:#f4ecae; }

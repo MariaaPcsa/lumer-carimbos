@@ -1,6 +1,7 @@
  footer {
 
-     background-color: #d9b434;
+     /* background-color: #d9b434; */
+     background: linear-gradient(to top, #d9b434, #bdb17ccc);
     padding: 1.5rem;
     text-align: center;
     line-height: 1rem;
