@@ -1,5 +1,5 @@
 
-import { Routes,Route,BrowserRouter } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css'
 import './components/header/Header.css'
 import Header from "./components/header/Header"
@@ -9,30 +9,22 @@ import Location from "./pages/location/Location"
 import History from "./pages/history/History"
 
 function App() {
- 
-
   return (
-      
-  
-    <>
-    <main>
- <Header/>
-   
+    <BrowserRouter>
+      <>
+        <main>
+          <Header />
 
-<BrowserRouter>
-
-    <Routes>
-      
-     <Route path="/" element={<Home/>}/>
-     <Route path="/location" element={<Location/>}/>
-     <Route path="/history" element={<History/>}/>
-     
-    </Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/location" element={<Location />} />
+            <Route path="/history" element={<History />} />
+          </Routes>
+        </main>
+        <Footer />
+      </>
     </BrowserRouter>
-     </main>
-     <Footer/>
-    </>
-  )
+  );
 }
 
-export default App
+export default App;
