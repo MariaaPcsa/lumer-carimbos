@@ -23,8 +23,7 @@ const Header = () => {
  <li>
             <a href="/history">Nossa Essência </a>
           </li>
-         
-           
+          
          
         </ul>
         
