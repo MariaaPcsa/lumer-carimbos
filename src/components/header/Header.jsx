@@ -1,30 +1,40 @@
-import { Link } from 'react-router-dom';
+
 import './Header.css';
 import '../../index.css';
 
+
 const Header = () => {
   return (
-    <header>
+    <>
+      <header>
       <div className="header-content">
-        <Link to="/">
+        <a href="/">
           <img src="/logo.jpg" alt="Logo da Lumer Carimbos" />
-        </Link>
+        </a>
         <h1>Lumer Carimbos</h1>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <a href="/">Home</a>
           </li>
+
           <li>
-            <Link to="/location">Localização</Link>
+            <a href="/location">Localização</a>
           </li>
-          <li>
-            <Link to="/history">Nossa Essência</Link>
+ <li>
+            <a href="/history">Nossa Essência </a>
           </li>
+         
+           
+         
         </ul>
+        
       </div>
     </header>
+       
+       
+      
+    </>
   );
 };
 
 export default Header;
-

@@ -8,6 +8,7 @@ import History from "./pages/history/History";
 import Location from "./pages/location/Location";
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -16,7 +17,8 @@ function App() {
           <Header />
 
           <Routes>
-            <Route path="/" element={<Home />} />
+           
+            <Route path="/" element= {<Home/>} />
             <Route path="/location" element={<Location />} />
             <Route path="/history" element={<History />} />
           </Routes>
