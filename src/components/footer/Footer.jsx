@@ -20,9 +20,11 @@ import '../../index.css';
             <img src="/imag-YouTube.jpg" alt="imagYouTube" />
         </li>
         <li>
-            <a href="https://wa.me/5511952274858" target="_blank" rel="noopener noreferrer" aria-label="whatsapp"></a>
-            <img src= "/imagwhatsapp.jpg"alt="imagwhatsapp" />
-        </li>
+  <a href="https://wa.me/5511952274858" target="_blank" rel="noopener noreferrer" aria-label="whatsapp">
+    <img src="/imagwhatsapp.jpg" alt="Ícone do WhatsApp" />
+  </a>
+</li>
+
         <li>
             <a href="#" target="_blank" rel="noopener noreferrer"></a>
             <img src= "/instagram.jpg"alt="instagram" />
