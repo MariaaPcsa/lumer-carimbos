@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import './Header.css';
 import '../../index.css';
 
@@ -12,20 +12,17 @@ const Header = () => {
           <img src="/logo.jpg" alt="Logo da Lumer Carimbos" />
         </a>
         <h1>Lumer Carimbos</h1>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
 
-          <li>
-            <a href="/location">Localização</a>
-          </li>
- <li>
-            <a href="/history">Nossa Essência </a>
-          </li>
+       
+              <ul>
+                <li><Link to="/">Home</Link></li>
+               
+                <li><Link to="/history">Nossa Essência</Link></li>
+               
+                <li><Link to="/location">Localização</Link></li>
+              </ul>
           
-         
-        </ul>
+        
         
       </div>
     </header>
