@@ -10,7 +10,8 @@
   /* background-color: #d9b434; */
   font-family: Georgia, 'Times New Roman', Times, serif;
   gap: 1rem; /* Espaço entre imagem e título */
-  background: linear-gradient(to top, #d9b434, #bdb17ccc);
+ 
+  background: linear-gradient(to top, #d9b434, #bdb17c68);
 }
 
 .header-content img {
