@@ -8,11 +8,12 @@ import '../../index.css';
 
   <h2> Nossa Essência</h2>
         
+        
        
             <div className='chistory'>
            <h4> 🎯 Missão da Lumer Carimbos:</h4>
              <p>
-            Oferecer carimbos de todos os tipos com qualidade, agilidade e eficiência,<br /> garantindo que nenhum profissional fique sem exercer seus serviços por falta de um carimbo confiável.
+            A Lumer Carimbos atua desde 2016 no segmento de carimbos, oferecendo soluções de qualidade para profissionais, empresas e instituições. <br /> Com uma ampla variedade de modelos — desde os mais tradicionais aos personalizados —, nossa missão é garantir que nenhum cliente fique sem prestar seus serviços por falta de um carimbo eficiente e confiável. Trabalhamos com agilidade, atenção aos detalhes e compromisso com a satisfação de cada pedido.
              </p>
              </div>
 
