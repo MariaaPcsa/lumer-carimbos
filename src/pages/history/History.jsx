@@ -23,8 +23,6 @@ import '../../index.css';
        
         </>
 
-
-
    )
  }
  

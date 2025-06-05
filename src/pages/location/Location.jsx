@@ -1,8 +1,7 @@
- import './Location.css';
-import '../../index.css';
-
-const Location = () => {
-  return (
+ import React from 'react'
+ 
+ const Location = () => {
+   return (
     <>
       <div className="map-container">
         <h2>Localização</h2>
@@ -30,8 +29,7 @@ const Location = () => {
       </div>
   
     </>
-  );
-};
-
-export default Location;
-
+   )
+ }
+ 
+ export default Location
