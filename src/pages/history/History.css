@@ -1,6 +1,6 @@
  .chistory {
   line-height: 0.5rem;
-  text-align: center;
+  text-align: left;
   margin: 2rem auto;
   padding: 2rem;
   max-width: 900px;
@@ -20,6 +20,7 @@
   margin: 1rem;
 }
 
+
 /* Responsividade para tablets */
 @media (max-width: 768px) {
   .chistory {
@@ -36,11 +37,12 @@
 @media (max-width: 480px) {
   .chistory {
     padding: 1rem;
-    margin: 1rem;
+    margin: 1.1rem;
   }
 
   .chistory p {
     font-size: 0.9rem;
     margin: 0.8rem;
+    
   }
 }

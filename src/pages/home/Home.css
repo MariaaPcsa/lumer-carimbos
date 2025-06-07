@@ -2,3 +2,30 @@
     margin-top: 50px;
     
  }
+ 
+
+ .mensagem {
+  line-height: 0.5rem;
+  text-align: left;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 900px;
+  border-radius: 0.4rem;
+  background-color: #f6e4f14b;
+  border-top: 0.2rem solid #383b66;
+  border-bottom: 0.1rem solid #383b66;
+  box-sizing: border-box;
+}
+
+/* Parágrafos */
+.text {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1rem;
+color: black;
+line-height: 1.5;
+margin: 1rem;
+text-align: center;
+
+}
+
+ 

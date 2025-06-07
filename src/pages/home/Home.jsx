@@ -1,12 +1,18 @@
  import './Home.css';
 import '../../index.css';
+import ProductCard from '../productcard/ProductCard';
+import ProductsContainer from '../productsContainer/ProductsContainer';
  
  const Home = () => {
    return (
+   
     <> 
-<br /><br /><br /> <br /><br /><br /><br /><br /><br />
-     <div><h2 className='title'>Catálago</h2></div>
-     <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <div className='mensagem'>
+      <p className='text'>Escolha o Produto  no Catálogo
+e para compra entra em contato com a loja</p>
+    </div>
+   
+   <ProductsContainer/>
 
      </>
    )

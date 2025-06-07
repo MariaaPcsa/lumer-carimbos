@@ -4,6 +4,11 @@ import '../../index.css';
  const Location = () => {
    return (
     <>
+
+    <div>
+
+      <p> Escolha o Produto no Catálogo e para compra entra em contato com a loja </p>
+    </div>
       <div className="map-container">
         <h2>Localização</h2>
         <iframe

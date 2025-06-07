@@ -1,0 +1,21 @@
+/* ProductsContainer.css */
+
+.products-container {
+  max-width:100%;              /* container centralizado */
+  margin: 0 auto;                 /* mx-auto */
+  padding-left: 2.5rem;           /* px-10 */
+  padding-right: 2.5rem;
+  display: flex;                  /* flex */
+  flex-wrap: wrap;                /* flex-wrap */
+  justify-content: center;        /* justify-center */
+  gap: 2.5rem;                    /* gap-10 */
+  background-color: #f9f9f9;      /* opcional */
+}
+@media (max-width: 768px) {
+  .products-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 1.5rem;
+  }
+}
+
