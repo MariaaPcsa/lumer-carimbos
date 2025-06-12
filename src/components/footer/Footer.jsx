@@ -29,11 +29,17 @@ import '../../index.css';
             <a href="#" target="_blank" rel="noopener noreferrer"></a>
             <img src= "/instagram.jpg"alt="instagram" />
         </li>
+           <li>
+            <a className='volta' href="#">
+          <img src="/Seta-volta.jpg" alt="Seta-volta" />
+        </a>
+            
+        </li>
     </ul>
 </section>
 <section>
      <address>
-              <p>Endereço: Primeiro de Maio, 138 - Jardim Sao Jose, Francisco Morato - SP, 07911-030, Brazil </p>
+              <p>Endereço: Primeiro de Maio, 138 - Jardim Sao Jose, Francisco Morato - SP, 07911-030, Brazil Tel: 55(11) 952274858</p>
             </address>
             
           

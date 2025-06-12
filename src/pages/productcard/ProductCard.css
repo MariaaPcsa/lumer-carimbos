@@ -21,6 +21,10 @@ width: 100%;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+img:hover {
+  transform: scale(1.06);
+   
+}
 
 /* Container interno de texto */
 
@@ -56,8 +60,13 @@ button {
   font-size: 0.9rem; /* Menor */
 }
 
+button:hover {
+
+  transform: scale(1.06);
+  color: blue;
+  
+}
+
+
 
     
-.mensagem{
- font-weight: 500;
-}

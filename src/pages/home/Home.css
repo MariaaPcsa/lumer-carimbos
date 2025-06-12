@@ -28,4 +28,39 @@ text-align: center;
 
 }
 
+/* Responsividade para tablets e celulares */
+@media (max-width: 768px) {
+  .mensagem {
+    padding: 1.5rem;
+    margin: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+    margin: 0.8rem;
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .mensagem {
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+    margin: 0.5rem;
+    text-align: left;
+  }
+
+  .title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}
+
  

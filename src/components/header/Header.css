@@ -7,7 +7,6 @@
   width: 100%;
   margin: 0;
   box-sizing: border-box;
-  /* background-color: #d9b434; */
   font-family: Georgia, 'Times New Roman', Times, serif;
   gap: 1rem; /* Espaço entre imagem e título */
  
@@ -19,10 +18,12 @@
   height: auto;
   border-radius: 45px;
   transition: transform 0.3s ease;
+  
 }
 
 .header-content img:hover {
-  transform: scale(1.05);
+  transform: scale(1.06);
+   
 }
 
 h1 {
@@ -48,8 +49,8 @@ h1 {
    transition: color 0.3s ease, font-size 0.3s ease;
 }
 
-.header-content ul li a:hover {
-  color: black;
+.header-content ul li a:hover{
+  color:blue ;
  font-size: 1.1rem;
 
 }
@@ -94,13 +95,14 @@ h1 {
   .header-content ul {
     flex-direction: row;         /* Mantém a lista em linha */
     justify-content: center;
-    margin: 0.2rem 0 0;
+    margin: 0.1rem 0 0;
     gap: 0.5rem;
      justify-content: flex-start; /* Alinha tudo à esquerda */
   }
 
   .header-content ul li a {
     font-size: 1rem;
+
     
   }
 }

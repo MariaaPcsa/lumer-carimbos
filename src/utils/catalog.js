@@ -14,101 +14,101 @@ import product12Img from "../assets/img/img12CarimboLogoembasedeMadeira.jpg";
 export const catalog = [
   {
     id: 1,
-    brand: "Nikon Carimbo Automático",
-    name: "Nikon Tam 36x15mm",
+    name: "Carimbo Automático",
+    brand: "Nikon Tam 36x15mm",
     price: 70,
     image: product1Img,
-    feminine: false
+    link: true
   },
   {
     id: 2,
-    brand: "Carimbo Automático Nikon",
-    name: "Nikon Tam 26x10mm",
+    name: "Carimbo Automático",
+    brand: "Nikon Tam 26x10mm",
     price: 85,
     image: product2Img,
-    feminine: true
+    link: true
   },
   {
     id: 3,
-    brand: "Carimbo Pocket 302",
-    name: " Power Tam. 37x15 mm",
+    name: "Carimbo Pocket 302",
+    brand: " Power Tam. 37x15 mm",
     price: 60,
     image: product3Img,
-    feminine: false
+    link: true
   },
   {
     id: 4,
-    brand: "Carimbo Automático Nikon ",
-    name: "Power Tam. 43x43mm",
+    name: "Carimbo Automático Nikon ",
+    brand: "Power Tam. 43x43mm",
     price: 160,
     image: product4Img,
-    feminine: false
+    link: true
   },
   {
     id: 5,
-    brand: "Mini datador Deskmet",
-    name: "Com base 06x22mm",
+    name: "Mini datador Deskmet",
+    brand: "Com base 06x22mm",
     price: 110,
     image: product5Img,
-    feminine: false
+    link: true
   },
   {
     id: 6,
-    brand: "Carimbo Automático Nikon Powe",
-    name: "315 Tam. 10x70mm",
+    name: "Carimbo Automático Nikon Powe",
+    brand: "315 Tam. 10x70mm",
     price: 170,
     image: product6Img,
-    feminine: true
+    link: true
   },
   {
     id: 7,
-    brand: "Carimbo Automático Nikon",
-    name: "C-40 Redondo 40mm",
+    name: "Carimbo Automático Nikon",
+    brand: "C-40 Redondo 40mm",
     price: 75,
     image: product7Img,
-    feminine: true
+    link: true
   },
   {
     id: 8,
-    brand: "Datador Nikon Power",
-    name: " 321D (só data)",
+    name: "Datador Nikon Power",
+    brand: " 321D (só data)",
     price: 88,
     image: product8Img,
-    feminine: true
+    link: true
   },
   {
     id: 9,
-    brand: "Chancela",
-    name: "Chancela Marca D'Agua",
+    name: "Chancela",
+    brand: "Chancela Marca D'Agua",
     price: 88,
     image: product9Img,
-    feminine: true
+    link: true
   },
 
   {
     id: 10,
-    brand: "Almofada Refil Para Carimbo ",
-    name: "Automático Nikon",
+    name: "Almofada Refil Para Carimbo ",
+    brand: "Automático Nikon",
     price: 88,
     image: product10Img,
-    feminine: true
+    link: true
   },
 
   {
     id: 11,
-    brand: "Almofada com tinta preta",
-    name: " Para carimbo",
+    name: "Almofada com tinta preta",
+    brand: " Para carimbo",
     price: 88,
     image: product11Img,
-    feminine: true
+    link: true
   },
 
   {
     id: 12,
-    brand: "Carimbo Logo",
-    name: "Em base de Madeira",
+    name: "Carimbo Logo",
+    brand: "Em base de Madeira",
     price: 88,
     image: product12Img,
-    feminine: true
+    link: true
   }
 ];
